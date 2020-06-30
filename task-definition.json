@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "314196241267.dkr.ecr.us-east-1.amazonaws.com/demo-docker",
+      "image": "314196241267.dkr.ecr.us-east-1.amazonaws.com/demo-docker:bd5dc91bc13d03ad7ea724447fe4e95ad29b2e08",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:314196241267:task-definition/docker-task:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:314196241267:task-definition/docker-task:2",
   "family": "docker-task",
   "requiresAttributes": [
     {
@@ -89,7 +89,7 @@
   ],
   "networkMode": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
