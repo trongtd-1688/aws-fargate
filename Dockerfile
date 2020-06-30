@@ -5,7 +5,7 @@ ADD . /
 
 RUN ./mvnw clean compile install -DskipTests
 
-ENV PORT=8888
+ENV PORT=8080
 EXPOSE $PORT
 
-ENTRYPOINT [ "sh", "-c", "java -jar *.jar"]
+ENTRYPOINT [ "sh", "-c", "java -jar target/demo-docker-0.0.1-SNAPSHOT.jar"]
