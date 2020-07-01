@@ -29,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "314196241267.dkr.ecr.us-east-1.amazonaws.com/demo-docker:bd5dc91bc13d03ad7ea724447fe4e95ad29b2e08",
+      "image": "314196241267.dkr.ecr.ap-southeast-1.amazonaws.com/demo-repository",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "learn-container"
+      "name": "demo-container"
     }
   ],
   "placementConstraints": [],
@@ -55,8 +55,8 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:314196241267:task-definition/docker-task:2",
-  "family": "docker-task",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:314196241267:task-definition/deploy-application:1",
+  "family": "deploy-application",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -89,7 +89,7 @@
   ],
   "networkMode": null,
   "cpu": null,
-  "revision": 2,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
